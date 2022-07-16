@@ -1,9 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+
 :root {
     --cor0: #2BFFEA;
     --cor1: #26B5DE;
     --cor2: #368FF5;
     --cor3: #2642DE;
     --cor4: #5A3BFA;
+}
 
-    --font1: font;
+header {
+    text-align: center;
+    background-image: linear-gradient(to left, #2BFFEA, #26B5DE, #368FF5, #2642DE,
+     #5A3BFA);
+    width: 1349px;
+    height: 310px;
+    font-size: 30px;
+}
+
+header img {
+    display: block;
+    text-align: left;
+    width: 800px;
+}
+
+section {
+    width: 800px;
+    height: 500px;
+}
+
+section img {
+    width: 500px;
 }
